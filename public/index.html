@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./scripts/main.js"></script>
+</head>
+<body>
+  <form>
+    <div>
+      <input type="number" value=7>
+      <input type="number" value=8>
+      <input type="number" value=9>
+      <input type="text" value=/>
+      <input type="text" value="undo">
+      <input type="text" value="clear">
+    </div>
+    <div>
+      <input type="number" value=4>
+      <input type="number" value=5>
+      <input type="number" value=6>
+      <input type="text" value=*>
+      <input type="text" value=(>
+      <input type="text" value=)>
+    </div>
+    <div>
+      <input type="number" value=1>
+      <input type="number" value=2>
+      <input type="number" value=3>
+      <input type="text" value=->
+      <input type="text" value="e">
+      <input type="text" value="v">
+    </div>
+    <div>
+      <input type="number" value=0>
+      <input type="number" value=.>
+      <input type="number" value=%>
+      <input type="text" value=+>
+      <input type="text" value="rest">
+    </div>
+    <button type="submit" class='calculate-math-operation'>=</button>
+  </form>
+  <p class='math-expression'>Expressão: </p>
+  <p class='math-result'>Resultado: </p>
+</body>
+</html>
